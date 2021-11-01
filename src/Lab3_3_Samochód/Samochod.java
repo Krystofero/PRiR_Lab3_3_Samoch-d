@@ -16,9 +16,6 @@ public class Samochod extends Thread {
         this.paliwo = rand.nextInt(pojZbiornika);;
         this.czy_jedzie = false;
         this.ile_tankowal = 0;
-       // this.rand = new Random();
-        //this.start();
-        //this.tankowanie(100);
     }
     public void tankowanie (int _paliwo){
         System.out.println("Auto " + this.nrRej + " tankuje " + _paliwo + "L paliwa.");
